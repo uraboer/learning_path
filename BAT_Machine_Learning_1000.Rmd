@@ -7,21 +7,34 @@ output: word_document
 
 ## 1.请简要介绍下SVM
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+SVM,全称是support vector Machine,中文名叫支持向量机。SVM是一个面向数据的分类算法,它的目标是为确定一个分类超平面，从而将不同的数据分隔开。
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+SVM原理、推导 <http://blog.csdn.net/v_july_v/article/details/7624837>
+
+推导视频<http://www.julyedu.com/video/play/18/429>
+
 
 ## 2.请简要介绍下tensorflow的计算图
 
-$x_1^2$
+Tensorflow是一个通过计算图的形式来表述计算的编程系统，计算图也叫数据流图，可以把计算图看作一种有向图，Tensorflow中的每一个计算都是计算图上的一个节点，而节点之间的边描述了计算之间的依赖关系。
 
+* Tensorflow一般可分为两部分
+  + 构造部分，包含计算流图
+  + 执行部分，通过session来执行图中的计算
 
-$y_N$, $y_{_N}$
+* 构造图
+  + 创造源节点(source op)
+  + 源节点输出传递给其他节点(op)做运算
 
+* TF默认图
+  + TensorFlow Python库有一个默认图(default graph)
+  + 节点构造器可以增加节点
+  
 
-$\frac{x+y}{y+z}$
+## 在K-means或KNN，我们常用欧氏距离来计算最近的邻居之间的距离，有时也用曼哈顿距离，请对比下这两种距离的差别。
 
-
+欧式距离，最常见的两点之间或多点之间的距离表示法，又称之为欧几里得度量，它定义于欧几里得空间中，如点$x=(x_1,...x_n)$和$y=(y_1,...y_n)$之间的距离为：$d(x,y):= \sqrt{(x_1-y_1)^2+(x_2-y_2)^2+...+(x_n-y_n)^2}=\sqrt{\Sigma^n_{i=1}{(x_i-y_i)^2}}$
+  
 
 
 

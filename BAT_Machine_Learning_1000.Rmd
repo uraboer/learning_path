@@ -1,0 +1,33 @@
+---
+title: "BAT_Machine_Learning_1000"
+author: "uraboer"
+date: "2018年1月4日"
+output: word_document
+---
+
+## 1.请简要介绍下SVM
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+## 2.请简要介绍下tensorflow的计算图
+
+$x_1^2$
+
+
+$y_N$, $y_{_N}$
+
+
+$\frac{x+y}{y+z}$
+
+
+
+
+
+
+
+
+
+
+

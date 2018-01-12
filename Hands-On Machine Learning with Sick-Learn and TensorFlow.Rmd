@@ -1,0 +1,41 @@
+---
+title: "Hands-On Machine Learning with Scikit-Learn and TensorFlow"
+author: "uraboer"
+date: "2018年1月12日"
+output: word_document
+---
+
+## Chapter 1  The Machine Learning Landscape
+
+Machine Learning is the science (and art) of programming computers so they can learn from data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

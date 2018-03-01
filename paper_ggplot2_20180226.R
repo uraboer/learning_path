@@ -96,30 +96,66 @@ p4
 # geom_errorbar:误差线
 # geom_errorbarh:水平误差线
 # geom_freqpoly:频率多边形，类似于直方图
+# geom_hex:六边形图，通常用于六边形封箱
+# geom_histogram:直方图
+# geom_hline:水平线
+# geom_jitter:点，自动添加了扰动
+# geom_line:线
+# geom_linerange:区间，用竖直线来表示
+
+
+
+# geom_path:几何路径，由一组点按顺序连接
+# geom_point:点
+# geom_pintrange:一条垂直线，线的中间有一个点
+# geom_polygon:多边形
+# geom_quantile:一组分位数线，来自分位数回归
+# geom_rect:二维的长方形
+# geom_ribbon:彩虹图，在连续的x值上表示y的范围
+# geom_rug:触须
+# geom_segment:线段
+# geom_smooth:平滑的条件平均
+# geom_step:阶梯图
+# geom_text:文本
+# geom_tile:瓦片
+# geom_vline:竖线图
+
+
+p<-ggplot(mtcars,aes(wt,mpg))
+p+geom_point()
+
+p+geom_point(aes(color=qsec))#更改颜色，连续变量
+
+p+geom_point(aes(color=factor(gear)))#更改颜色，离散变量
+
+p+geom_point(aes(alpha=qsec))#更改透明度
+
+p+geom_point(aes(shape=factor(gear)))#更改形状
+
+p+geom_point(aes(size=qsec))#更改点大小
+
+p+geom_point(color="grey50",size=5)+geom_point(aes(color=qsec),size=4)#两种颜色的叠加
+
+p+geom_point(color="grey50",size=5)+geom_point(aes(shape=factor(gear)),size=3)#颜色和形状的叠加
+
+
+#统计变换即对数据进行统计变化，通常以某种方式对数据信息进行汇总
+#统计变换函数，描述
+# stat_abline
 # 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
 
 
 
